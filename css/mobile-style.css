@@ -1,0 +1,161 @@
+@media only screen and (max-width: 376px){
+    body{
+        width: 374px;
+    }
+    /* ---------------Special text--------------- */
+    .special-text{
+        margin-bottom: 2.5rem;
+        font-size: 15px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    h1,h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.7rem;
+    }
+    .container{
+        padding-top: 5.5rem;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    /* ---------------Header--------------- */
+    header{
+        background: url(../images/bg-header-mobile.png) contain no-repeat;
+        padding: 35% 6% 0% 6%;
+    }
+    header .hd-logo img{
+        width: 40%;
+    }
+    header article h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    header .download{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    button a{
+        font-weight: 800;
+    }
+    .download .ios{
+        box-shadow: 1px 3px 2px #4a9595;
+    }
+    .download .mac{
+        box-shadow: 1px 3px 2px #5f5fc5;
+    }
+    
+    /* ---------------snippets--------------- */
+    .snippets{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .snippets img{
+        width: 100%;
+    }
+    .snippets .info{
+        margin-top: 2rem;
+        margin-left: 0; 
+        margin-right: 0;
+        width: 100%;
+        gap: 0;
+        line-height: 1.8rem;
+    }
+    .snippets .info section{
+        margin-bottom: 3rem;
+    }
+    .snippets .info section h3{
+
+    }
+    .snippets .info section p{
+        margin-top: 5px;
+    }
+    /* ---------------clipboard--------------- */
+    .clipboard{
+        margin-top: 0;
+    }
+    .clipboard img{
+        width: 100%;
+    }
+    .clipboard .device{
+        padding-top: 1rem;
+        padding-bottom: 4.5rem;
+    }
+    /* ---------------workflow--------------- */
+    .workflow{
+        padding-top: 2.5rem;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-direction: column;
+        width: 100%;
+    }
+    .workflow div{
+        margin-bottom: 35px;
+    }
+    .workflow .blacklists{
+        width: 15%;
+    }
+    .workflow .text{
+        width: 13%;
+    }
+    .workflow .preview{
+        width: 15%;
+    }
+    /* ---------------logos--------------- */
+    .logos{
+        margin-top: 7.5rem;
+        margin-bottom: 10rem;
+        width: 45%;
+        flex-direction: column;
+        margin: 25%;
+        grid-gap: 60px;
+    }
+    /* ---------------download--------------- */
+    section .download{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    /* ---------------Footer--------------- */
+    .footer{
+        padding: 50px 80px;
+        flex-direction: column;
+    }
+    .f-logo{
+        width: 50%;
+    }
+
+    .servies-text{
+        text-align: center;
+        display: block;
+        margin-right: 0px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .servies-text ul{
+        padding: 0;
+    }
+    .servies-text ul li{
+        color: var(--Grayish-Blue);
+        text-decoration: none;
+        font-weight: 200;
+        font-size: 18px;
+        margin: 20px;
+    }
+    .social i{
+        margin-right: 20px;
+    }
+    
+}
